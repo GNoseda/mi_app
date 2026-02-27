@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @comment.content %>
+</p>
+
+<p>
+  <strong>AI generated:</strong>
+  <%= @comment.ai_generated %>
+</p>
+
+<%= link_to "Edit this comment", edit_comment_path(@comment) %> |
+<%= link_to "Back to comments", comments_path %>
+
+<%= button_to "Destroy this comment", @comment, method: :delete, data: { turbo_confirm: "Are you sure?" } %>
+

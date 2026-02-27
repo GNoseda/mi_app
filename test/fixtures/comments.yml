@@ -1,0 +1,8 @@
+one:
+  content: "First comment"
+  ai_generated: false
+
+two:
+  content: "Second comment"
+  ai_generated: false
+
